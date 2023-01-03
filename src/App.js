@@ -1,13 +1,12 @@
-import React from "react";
-// import Todo from "./components/todoreact/todo";
-import Temp from "./components/weather/temp";
+import './App.css';
+import Weather from './components/Weather';
 
-const App = () => {
+function App() {
   return (
-    <>
-      <Temp />
-    </>
+    <div className="App">
+      <Weather/>
+    </div>
   );
-};
+}
 
 export default App;
