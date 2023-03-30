@@ -16,12 +16,12 @@ export default function Weather() {
 
     const handlerSubmit = async () => {
         if (!formData.city) {
-            alert("Please Eneter City");
+            alert("Please Enter City");
             return
         }
 
         if (!formData.country) {
-            alert("Please Eneter Country");
+            alert("Please Enter Country");
             return
         }
 
